@@ -19,7 +19,7 @@ function multiply(a, b) {
 }
 
 function divide(a, b) {
-  const numerator = toNumerator(a)
+  const numerator = toNumber(a)
   const denominator = toNumber(b)
   if (denominator === 0) {
     throw new Error(`Error: ${numerator} is indivisible by zero`)
