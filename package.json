@@ -1,0 +1,24 @@
+{
+  "name": "online-calculator",
+  "version": "1.0.0",
+  "description": "A simple online calculator built with Node.js and Express. Supports query string operations (add, subtract, multiply, divide) and returns results in plain text or JSON. Includes sample data and API documentation.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tayogunsola-lab/ONLINE-CALCULATOR.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/tayogunsola-lab/ONLINE-CALCULATOR/issues"
+  },
+  "homepage": "https://github.com/tayogunsola-lab/ONLINE-CALCULATOR#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
