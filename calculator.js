@@ -19,11 +19,12 @@ function multiply(a, b) {
 }
 
 function divide(a, b) {
+  const numerator = toNumerator(a)
   const denominator = toNumber(b)
   if (denominator === 0) {
-    throw new Error('Eror')
+    throw new Error(`Error: ${numerator} isindivisible by zero`)
   }
-  return toNumber(a) / denominator
+  return numerator / denominator
 }
 
 export default {
