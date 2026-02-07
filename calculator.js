@@ -1,4 +1,4 @@
-function toNumber(value) {
+ function toNumber(value) {
   const num = Number(value)
   if (Number.isNaN(num)) {
     throw new Error('Enter valid numbers.')
@@ -28,6 +28,7 @@ function divide(a, b) {
 }
 
 export default {
+  toNumber,
   add,
   subtract,
   multiply,
