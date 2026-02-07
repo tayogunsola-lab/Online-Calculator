@@ -1,5 +1,5 @@
 import express from 'express';
-import calculator from './calculator.js'
+import calculator, { toNumber } from './calculator.js'
 
 const app = express();
 

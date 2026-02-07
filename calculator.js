@@ -1,4 +1,4 @@
-function toNumber(value) {
+export function toNumber(value) {
   const num = Number(value)
   if (Number.isNaN(num)) {
     throw new Error('Enter valid numbers.')
